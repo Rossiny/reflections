@@ -6,3 +6,29 @@ O Git criar um arquivo de histórico de mudanças para os arquivos rastreados. P
 Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 
 No diretório não há uma área de prepação enquanto no repositório sim. O valor que ela oferece está associado à possibilidade de manter uma unidade logicamente coesa. 
+
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+Comparando o estado atual do projeto com o último commit e fazendo os novos commits de acordo com o resultado.
+
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+Situações em que se fizer necessária a implementação de novos recursos ou funcionalidades. A criação dos branches ajudam porque permitem manter uma versão estável enquanto novas implementações são inseridas.
+
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+
+Expondo os relacionamentos entre os commits visualmente.
+
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+A união dos conteúdos de cada arquivo. Para ser possível visualizar que o commit tem duas origens distintas.
+
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+Prós: trás extrema agilidade e segurança em comparação ao método manual.
+Contras: menos domínio sobre como será mesclado.
